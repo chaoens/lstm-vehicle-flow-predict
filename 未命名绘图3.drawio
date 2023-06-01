@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T09:20:42.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.0.0" etag="t3IsK8D7REWFNWBRFnA-" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T09:22:03.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.0.0" etag="f9c3qtu_79Nv86PGUNMD" version="21.3.6" type="github">
   <diagram name="第 1 页" id="PsfgQJj6eO9L43K2dg6k">
     <mxGraphModel dx="1929" dy="1223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-6" value="预测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-6" value="数据预测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dp6s-hYy4wlyeIpTVWs1-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dp6s-hYy4wlyeIpTVWs1-7" target="Dp6s-hYy4wlyeIpTVWs1-47">
@@ -54,11 +54,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-7" value="可视化结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-7" value="可视化结果展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dp6s-hYy4wlyeIpTVWs1-8" target="Dp6s-hYy4wlyeIpTVWs1-14">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Dp6s-hYy4wlyeIpTVWs1-8" value="标准化" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="-400" y="360" width="60" height="120" as="geometry" />
@@ -69,28 +66,11 @@
         <mxCell id="Dp6s-hYy4wlyeIpTVWs1-10" value="归一化" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="-490" y="360" width="60" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dp6s-hYy4wlyeIpTVWs1-11" target="Dp6s-hYy4wlyeIpTVWs1-34">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-260" y="500" />
-              <mxPoint x="-210" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Dp6s-hYy4wlyeIpTVWs1-11" value="swarm&lt;br&gt;清洗数据" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="-290" y="360" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Dp6s-hYy4wlyeIpTVWs1-12" value="模型参数选择" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="-190" y="360" width="60" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dp6s-hYy4wlyeIpTVWs1-13" target="Dp6s-hYy4wlyeIpTVWs1-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-13" value="SP算法" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="525" width="60" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-14" value="SDR&lt;br&gt;转换" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="525" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Dp6s-hYy4wlyeIpTVWs1-16" value="模型训练" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="-80" y="360" width="60" height="120" as="geometry" />
@@ -152,21 +132,6 @@
             <mxPoint x="-200" y="390" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-260" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-33" value="TM算法" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="525" width="60" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-34" value="swarm&lt;br&gt;函数" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="525" width="60" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Dp6s-hYy4wlyeIpTVWs1-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Dp6s-hYy4wlyeIpTVWs1-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-260" y="500" as="sourcePoint" />
-            <mxPoint x="-230" y="410" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-300" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
